@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Movie Stream</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="flex flex-col fixed top-0 text-gray-500 pb-10 w-full min-h-full" style="height:100%">
+    <div class="flex flex-col fixed top-0 text-gray-500 pb-10 w-full min-h-full " style="height: 100%;">
+      <nav></nav>
+      <ul id="messages" class="tracking-wider leading-10 mt-2 px-4 overflow-hiden mb-10 overflow-scroll"></ul>
+    </div>
+   
+  </body>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/app.js"></script>
+</html>

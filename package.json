@@ -1,0 +1,27 @@
+{
+  "name": "twitter-movie-finder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dara-tobi/twitter-movie-finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dara-tobi/twitter-movie-finder/issues"
+  },
+  "homepage": "https://github.com/dara-tobi/twitter-movie-finder#readme",
+
+  "dependencies": {
+    "axios": "^0.24.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.2",
+    "request": "^2.88.2",
+    "socket.io": "^4.4.1"
+  }
+}
